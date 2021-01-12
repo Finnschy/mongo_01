@@ -1,0 +1,13 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery figure figcaption {
+    display: flex;
+    justify-content: space-between;
+}

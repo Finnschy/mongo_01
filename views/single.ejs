@@ -1,0 +1,18 @@
+<%- include("./partials/head") %>
+    <h1>Gallery</h1>
+    <%#= JSON.stringify(galleryData) %>
+
+        <figure>
+            <img src=<%=picture.url%> alt="">
+            <figcaption>
+                <p>
+                    <%=picture.author%>
+                </p>
+                <p>
+                    <%=picture.rating%>
+                </p>
+            </figcaption>
+        </figure>
+
+
+        <%- include("./partials/footer") %>
